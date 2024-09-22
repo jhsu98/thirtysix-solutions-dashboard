@@ -1,4 +1,4 @@
-import { Container, Title } from '@mantine/core';
+import { Container, Title } from "@mantine/core";
 
 export default function DashboardPage() {
   return (
