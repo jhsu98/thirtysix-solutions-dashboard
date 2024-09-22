@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Next.js",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/frontend/node_modules/next/dist/bin/next",
+      "args": ["dev"],
+      "cwd": "${workspaceFolder}/frontend",
+      "runtimeExecutable": "node",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run Supabase Function (Deno)",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/backend/functions/myFunction.ts", // Replace with your function path
+      "cwd": "${workspaceFolder}/backend",
+      "runtimeExecutable": "deno",
+      "runtimeArgs": ["run", "--allow-all", "--unstable"],
+      "console": "integratedTerminal"
+    }
+  ]
+}
