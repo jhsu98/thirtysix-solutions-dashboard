@@ -1,6 +1,6 @@
 "use client";
 
-import { AppShell, Burger, Title, useMantineTheme } from "@mantine/core";
+import { AppShell, Burger, Image, Title, useMantineTheme } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 import { DashboardNavbar } from "@/components/layouts/DashboardNavbar/DashboardNavbar";
 import Logo from "@/components/ui/Logo/Logo";
@@ -38,10 +38,11 @@ export function DashboardAppShell({ children }: DashboardAppShellProps) {
           my="auto"
           mx="md"
         />
-        <Logo />
-        <Title my="auto" order={2}>
+        <Image src="/ecocentric01.png" alt="Ecocentric Logo" pl="md" my="sm" />
+        {/* <Logo /> */}
+        {/* <Title my="auto" order={2}>
           {SITE_NAME}
-        </Title>
+        </Title> */}
       </AppShell.Header>
 
       <AppShell.Navbar>

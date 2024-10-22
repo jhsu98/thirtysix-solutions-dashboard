@@ -6,6 +6,9 @@ import "@mantine/notifications/styles.css";
 import { SITE_NAME, SITE_DESCRIPTION } from "@/config/config";
 import theme from "@/theme";
 
+import "@mantine/notifications/styles.css";
+import "mantine-react-table/styles.css";
+
 export const metadata = {
   title: SITE_NAME,
   description: SITE_DESCRIPTION,

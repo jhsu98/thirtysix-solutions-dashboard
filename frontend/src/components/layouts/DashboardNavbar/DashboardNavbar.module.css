@@ -53,10 +53,12 @@
     &,
     &:hover {
       background-color: var(--mantine-color-primary-light);
-      color: var(--mantine-color-primary-light-color);
-
+      color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
       .linkIcon {
-        color: var(--mantine-color-primary-light-color);
+        color: light-dark(
+          var(--mantine-color-black),
+          var(--mantine-color-white)
+        );
       }
     }
   }

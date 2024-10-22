@@ -1,0 +1,7 @@
+.actionIcon {
+  &:disabled,
+  &[data-disabled] {
+    border: 0px;
+    background-color: transparent;
+  }
+}

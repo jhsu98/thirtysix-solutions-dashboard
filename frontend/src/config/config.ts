@@ -3,12 +3,13 @@ import {
   IconFolder,
   IconHome,
   IconLayout,
+  IconUsers,
 } from "@tabler/icons-react";
 import { link } from "fs";
 
 // Site metadata
-export const SITE_NAME = "Supabase Mantine Starter";
-export const SITE_DESCRIPTION = "A starter template using Supabase and Mantine";
+export const SITE_NAME = "Ecocentric Data Portal";
+export const SITE_DESCRIPTION = "Customer and team portal for Ecocentric";
 export const SITE_URL = "https://yoursitedomain.com";
 
 // SEO
@@ -17,7 +18,7 @@ export const DEFAULT_DESCRIPTION = "Default description for SEO";
 export const DEFAULT_KEYWORDS = ["keyword1", "keyword2", "keyword3"];
 
 // Theme
-export const PRIMARY_COLOR = "#2D80BE"; // Your primary color
+export const PRIMARY_COLOR = "#2A4717"; // Your primary color
 export const SECONDARY_COLOR = "#17146B"; // Your secondary color
 export const ACCENT_COLOR = "#4C3BCF"; // Your accent color
 
@@ -30,4 +31,5 @@ export const DASHBOARD_NAV_ITEMS = [
   { link: "", label: "Projects", key: "projects", icon: IconLayout },
   { link: "", label: "Schedule", key: "schedule", icon: IconCalendarEvent },
   { link: "", label: "Files", key: "files", icon: IconFolder },
+  { link: "/dashboard/users", label: "Users", key: "users", icon: IconUsers },
 ];
