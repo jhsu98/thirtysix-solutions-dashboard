@@ -1,10 +1,10 @@
-# Project Name
+# Ecocentric
 
 A brief description of your Next.js and Supabase project, including key features and the main purpose of the application.
 
 ## Table of Contents
 
-- [Project Name](#project-name)
+- [Ecocentric](#ecocentric)
   - [Table of Contents](#table-of-contents)
   - [Project Structure](#project-structure)
   - [Setup and Installation](#setup-and-installation)
