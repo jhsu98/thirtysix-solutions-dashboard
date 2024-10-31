@@ -41,10 +41,9 @@ export function UsersTable() {
         }
 
         const { users } = await response.json();
-        console.log(users);
 
-        setTableData(users?.users || []);
-        setRowCount(users?.users?.length || 0);
+        setTableData(users?.users ?? []);
+        setRowCount(users?.users?.length ?? 0);
       } catch (error) {
         console.error(error);
       } finally {
