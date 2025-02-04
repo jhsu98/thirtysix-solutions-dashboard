@@ -8,9 +8,10 @@ import {
 import { link } from "fs";
 
 // Site metadata
-export const SITE_NAME = "Ecocentric Data Portal";
-export const SITE_DESCRIPTION = "Customer and team portal for Ecocentric";
-export const SITE_URL = "https://yoursitedomain.com";
+export const SITE_NAME = "Thirtysix Solutions Data Portal";
+export const SITE_DESCRIPTION =
+  "Customer and team portal for Thirtysix Solutions";
+export const SITE_URL = "https://app.thirtysix.solutions";
 
 // SEO
 export const DEFAULT_TITLE_TEMPLATE = "%s | Your Site Name";
@@ -18,7 +19,7 @@ export const DEFAULT_DESCRIPTION = "Default description for SEO";
 export const DEFAULT_KEYWORDS = ["keyword1", "keyword2", "keyword3"];
 
 // Theme
-export const PRIMARY_COLOR = "#2A4717"; // Your primary color
+export const PRIMARY_COLOR = "#2D80BE"; // Your primary color
 export const SECONDARY_COLOR = "#17146B"; // Your secondary color
 export const ACCENT_COLOR = "#4C3BCF"; // Your accent color
 

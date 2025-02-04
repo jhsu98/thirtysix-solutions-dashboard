@@ -38,8 +38,8 @@ export function DashboardAppShell({ children }: DashboardAppShellProps) {
           my="auto"
           mx="md"
         />
-        <Image src="/ecocentric01.png" alt="Ecocentric Logo" pl="md" my="sm" />
-        {/* <Logo /> */}
+        {/* <Image src="/ecocentric01.png" alt="Ecocentric Logo" pl="md" my="sm" /> */}
+        <Logo />
         {/* <Title my="auto" order={2}>
           {SITE_NAME}
         </Title> */}
