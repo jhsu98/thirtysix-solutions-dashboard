@@ -9,6 +9,8 @@ import { DailyActivityGraph } from "@/components/dashboard/DailyActivityGraph/Da
 
 export default function DashboardPage() {
   const [client, setClient] = useState<string | null>(null);
+  const [startDate, setStartDate] = useState<Date | null>(null);
+  const [endDate, setEndDate] = useState<Date | null>(null);
 
   return (
     <Container fluid pl="md" mb="md">
