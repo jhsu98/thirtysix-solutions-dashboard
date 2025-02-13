@@ -11,8 +11,8 @@ interface RequestBody {
   recipient: string;
 }
 
-const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL!;
-const SUPABASE_SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY!;
+const SUPABASE_URL = process.env.ECOCENTRIC_SUPABASE_URL!;
+const SUPABASE_SERVICE_ROLE_KEY = process.env.ECOCENTRIC_SUPABASE_SERVICE_ROLE_KEY!;
 const SENDGRID_API_KEY = process.env.SENDGRID_API_KEY!;
 const FROM_EMAIL = process.env.SENDGRID_FROM_EMAIL || "no-reply@ecocentricnv.com";
 

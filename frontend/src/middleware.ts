@@ -3,7 +3,7 @@ import { updateSession } from "@/utils/supabase/middleware";
 
 export async function middleware(request: NextRequest) {
   // Check if it's the root route
-  if (request.nextUrl.pathname === "/") {
+  if (request.nextUrl.pathname === "/" || request.nextUrl.pathname.startsWith('/api/')) {
     return NextResponse.next();
   }
 
